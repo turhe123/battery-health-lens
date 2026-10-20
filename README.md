@@ -1,5 +1,7 @@
 # BatteryHealthLens
 
+**🌐 Website:** [turhe123.github.io/battery-health-lens](https://turhe123.github.io/battery-health-lens/)
+
 See your battery's cycle count, true capacity and wear in a menu bar popover, with a daily health history.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -26,7 +28,13 @@ BatteryHealthLens is a free, open-source, 100% native, backend-free alternative 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-popover.png" alt="BatteryHealthLens menu bar popover showing 86% battery health and battery stats" width="720"></p>
+
+<p align="center"><em>The menu bar popover shows battery health as a ring, nine stat tiles with cycles, capacities, temperature, voltage and adapter info, and the Health History chart.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="BatteryHealthLens Settings window with alert, display and general options" width="560"></p>
+
+<p align="center"><em>Settings let you set health and cycle-count alerts, show or hide the menu bar percentage, pick Celsius or Fahrenheit, and launch at login.</em></p>
 
 ## Install
 

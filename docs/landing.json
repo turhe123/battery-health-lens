@@ -1,0 +1,24 @@
+{
+  "seo_title": "Mac battery health in your menu bar",
+  "seo_description": "BatteryHealthLens is a free, open-source Mac menu bar app showing battery cycle count, true capacity and wear, with a daily health history chart.",
+  "hero_title_line1": "Know your battery's",
+  "hero_title_accent": "real health",
+  "hero_sub": "See your Mac battery's cycle count, true capacity and wear from the menu bar. Click the icon for a popover with a health ring, live stats and a daily history chart.",
+  "features_title": "Everything your battery reports.",
+  "features_sub": "BatteryHealthLens reads the data macOS already exposes and keeps it on your Mac.",
+  "features": [
+    {"icon": "battery", "title": "Health ring at a glance", "desc": "Maximum capacity divided by design capacity, shown as a green, orange or red ring with charging, adapter or battery status."},
+    {"icon": "cpu", "title": "Nine detailed stat tiles", "desc": "Cycle count, design and full-charge capacity, current charge in mAh, temperature, voltage, amperage, adapter connection and wattage. Missing values show a dash."},
+    {"icon": "clock", "title": "Daily health history", "desc": "One snapshot per day feeds a chart with 1M, 6M and All ranges, so you can watch wear develop over months."},
+    {"icon": "bell", "title": "Optional threshold alerts", "desc": "Get a local notification when health falls below a level you choose or the cycle count reaches your target. Each alert fires once per crossing."},
+    {"icon": "clipboard", "title": "Copy a plain-text report", "desc": "One click puts the current readings on the clipboard, handy for support tickets or resale listings."},
+    {"icon": "sliders", "title": "Settings that stay simple", "desc": "Show or hide the menu bar percentage, switch between Celsius and Fahrenheit, set alert thresholds and launch at login."}
+  ],
+  "permissions_step": "No special permissions are required; macOS asks for notification access only if you turn on alerts, and Launch at login appears under System Settings > General > Login Items.",
+  "faq": [
+    {"q": "Is BatteryHealthLens free and open source?", "a": "Yes. It is free to use and released under the MIT license, with the full source on GitHub. There are no accounts, no ads and no paid tier; if it is useful, an optional Ko-fi donation button is available."},
+    {"q": "What permissions does it need?", "a": "None for reading battery data, since the AppleSmartBattery registry entry is readable by any user. It asks for notification access only when you enable alerts, and shows up in Login Items only if you enable Launch at login."},
+    {"q": "Where is my data stored?", "a": "Only on your Mac. The daily history is a small JSON file at ~/Library/Application Support/BatteryHealthLens/history.json, limited to five years. The app makes no network calls and has no analytics."},
+    {"q": "Why isn't the app notarized?", "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."}
+  ]
+}

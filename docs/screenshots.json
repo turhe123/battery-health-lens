@@ -1,0 +1,4 @@
+[
+  {"file":"01-popover.png","caption":"The menu bar popover shows battery health as a ring, nine stat tiles with cycles, capacities, temperature, voltage and adapter info, and the Health History chart.","alt":"BatteryHealthLens menu bar popover showing 86% battery health and battery stats"},
+  {"file":"02-settings.png","caption":"Settings let you set health and cycle-count alerts, show or hide the menu bar percentage, pick Celsius or Fahrenheit, and launch at login.","alt":"BatteryHealthLens Settings window with alert, display and general options"}
+]
